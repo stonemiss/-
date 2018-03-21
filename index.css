@@ -66,6 +66,26 @@ main{
 	color: #fff;
 	font-size: 20px;
 }
-.system_jiaotong{
 
+/*按钮划过效果--------------*/
+.system_ico:hover,
+.system_ico:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.system_ico {
+	border-radius: 50%;
+  --hover: #3a4e9c;
 }
