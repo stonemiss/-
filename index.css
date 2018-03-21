@@ -1,0 +1,71 @@
+/**{
+	
+}*/
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(icon/bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+header .logo{
+	text-align: center;
+	padding-top: 26px;
+	margin: 0 auto;
+}
+header .time{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 100px;
+	margin-left: 20px;
+}
+header .weather{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 100px;
+	width: 320px;
+	margin-right: 20px;
+	text-align: right;
+}
+main{
+	width: 100%;
+	height: 100%;
+}
+.row{
+	width: 90%;
+	height: 200px;
+	text-align: center;
+	margin: 20px auto;
+}
+.row .system{
+	float: left;
+	width: 14.2%;
+}
+
+.system_img{
+	height: 120px;
+}
+.system_name{
+	color: #fff;
+	font-size: 20px;
+}
+.system_jiaotong{
+
+}
